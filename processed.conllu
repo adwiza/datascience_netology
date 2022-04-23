@@ -1,0 +1,71 @@
+# text = Собянин открыл новый парк и детскую площадку .
+1	Собянин	Собянин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=0:7
+2	открыл	открыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=8:14
+3	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	TokenRange=15:20
+4	парк	парк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	TokenRange=21:25
+5	и	и	CCONJ	_	_	7	cc	_	TokenRange=26:27
+6	детскую	детский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	TokenRange=28:35
+7	площадку	площадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	conj	_	TokenRange=36:44
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\s\r\n\r\n|TokenRange=45:46
+
+# newpar
+# sent_id = 2
+# text = Артисты театра посетят Германию и Швейцарию .
+1	Артисты	артист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	TokenRange=51:58
+2	театра	театр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	TokenRange=59:65
+3	посетят	посетить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\s\s|TokenRange=66:73
+4	Германию	Германия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	TokenRange=75:83
+5	и	и	CCONJ	_	_	6	cc	_	TokenRange=84:85
+6	Швейцарию	Швейцария	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	conj	_	TokenRange=86:95
+7	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n\r\n|TokenRange=96:97
+
+# newpar
+# sent_id = 3
+# text = РЖД начнет продавать билеты за 90 дней до отправления поезда .
+1	РЖД	ржд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	TokenRange=101:104
+2	начнет	начать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=105:111
+3	продавать	продавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	TokenRange=112:121
+4	билеты	билет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	TokenRange=122:128
+5	за	за	ADP	_	_	7	case	_	TokenRange=129:131
+6	90	90	NUM	_	NumForm=Digit	7	nummod:gov	_	TokenRange=132:134
+7	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	TokenRange=135:139
+8	до	до	ADP	_	_	9	case	_	TokenRange=140:142
+9	отправления	отправление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	TokenRange=143:154
+10	поезда	поезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	TokenRange=155:161
+11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n\r\n|TokenRange=162:163
+
+# newpar
+# sent_id = 4
+# text = Минтранс запретил провозить через Крымский мост оружие и взрывчатку .
+1	Минтранс	Минтранс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=167:175
+2	запретил	запретить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=176:184
+3	провозить	провозить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	TokenRange=185:194
+4	через	через	ADP	_	_	6	case	_	TokenRange=195:200
+5	Крымский	крымский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=201:209
+6	мост	мост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	TokenRange=210:214
+7	оружие	оружие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	TokenRange=215:221
+8	и	и	CCONJ	_	_	9	cc	_	TokenRange=222:223
+9	взрывчатку	взрывчатка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	conj	_	TokenRange=224:234
+10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n\r\n|TokenRange=235:236
+
+# newpar
+# sent_id = 5
+# text = Дональд Трамп едет в Польшу
+1	Дональд	Дональд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=240:247
+2	Трамп	Трамп	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	TokenRange=248:253
+3	едет	ехать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=254:258
+4	в	в	ADP	_	_	5	case	_	TokenRange=259:260
+5	Польшу	Польша	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpacesAfter=\s\r\n\r\n|TokenRange=261:267
+
+# newpar
+# sent_id = 6
+# text = Ургант в образе принцессы спел о допинговом скандале
+1	Ургант	Ургант	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=272:278
+2	в	в	ADP	_	_	3	case	_	TokenRange=279:280
+3	образе	образ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	TokenRange=281:287
+4	принцессы	принцесса	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	TokenRange=288:297
+5	спел	спеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=298:302
+6	о	о	ADP	_	_	8	case	_	TokenRange=303:304
+7	допинговом	допинговый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	TokenRange=305:315
+8	скандале	скандал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpacesAfter=\r\n\r\n|TokenRange=316:324
+
